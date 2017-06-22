@@ -1,6 +1,6 @@
-# node-libs-browser
+# node-libs-react-native
 
-The node core libs for in-browser usage.
+The node core libs for in-react-native usage.
 
 [![dependencies status](http://david-dm.org/webpack/node-libs-browser.png)](http://david-dm.org/webpack/node-libs-browser)
 
@@ -36,7 +36,7 @@ Some modules have mocks in the `mock` directory. These are replacements with min
 | stream | [substack/stream-browserify](https://github.com/substack/stream-browserify) | --- |
 | string_decoder | [rvagg/string_decoder](https://github.com/rvagg/string_decoder) | --- |
 | sys | [defunctzombie/node-util](https://github.com/defunctzombie/node-util) | --- |
-| timers | [jryans/timers-browserify](https://github.com/jryans/timers-browserify) | --- | 
+| timers | [jryans/timers-browserify](https://github.com/jryans/timers-browserify) | --- |
 | tls | --- | [tls.js](https://github.com/webpack/node-libs-browser/blob/master/mock/tls.js) |
 | tty | [substack/tty-browserify](https://github.com/substack/tty-browserify) | [tty.js](https://github.com/webpack/node-libs-browser/blob/master/mock/tty.js) |
 | url | [defunctzombie/node-url](https://github.com/defunctzombie/node-url) | --- |

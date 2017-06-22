@@ -1,11 +1,12 @@
 {
-  "name": "node-libs-browser",
+  "name": "node-libs-react-native",
   "version": "2.0.0",
   "author": "Tobias Koppers @sokra",
-  "description": "The node core libs for in browser usage.",
+  "contributors": ["Peter Jihoon Kim (https://github.com/petejkim)"],
+  "description": "The node core libs for in react-native usage.",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/webpack/node-libs-browser.git"
+    "url": "git+https://github.com/petejkim/node-libs-react-native.git"
   },
   "dependencies": {
     "assert": "^1.1.1",
@@ -13,11 +14,11 @@
     "buffer": "^4.3.0",
     "console-browserify": "^1.1.0",
     "constants-browserify": "^1.0.0",
-    "crypto-browserify": "^3.11.0",
     "domain-browser": "^1.1.1",
     "events": "^1.0.0",
     "https-browserify": "0.0.1",
     "os-browserify": "^0.2.0",
+    "react-native-crypto": "^2.0.2",
     "path-browserify": "0.0.0",
     "process": "^0.11.0",
     "punycode": "^1.2.4",
@@ -32,7 +33,7 @@
     "util": "^0.10.3",
     "vm-browserify": "0.0.4"
   },
-  "homepage": "http://github.com/webpack/node-libs-browser",
+  "homepage": "http://github.com/petejkim/node-libs-react-native",
   "main": "index.js",
   "files": [
     "index.js",
@@ -43,6 +44,6 @@
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/webpack/node-libs-browser/issues"
+    "url": "https://github.com/petejkim/node-libs-react-native/issues"
   }
 }
