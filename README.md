@@ -2,8 +2,6 @@
 
 The node core libs for in-react-native usage.
 
-[![dependencies status](http://david-dm.org/webpack/node-libs-browser.png)](http://david-dm.org/webpack/node-libs-browser)
-
 Exports a hash [object] of absolute paths to each lib, keyed by lib names. Modules without browser replacements are `null`.
 
 Some modules have mocks in the `mock` directory. These are replacements with minimal functionality.
@@ -16,7 +14,7 @@ Some modules have mocks in the `mock` directory. These are replacements with min
 | cluster | --- | --- |
 | console | [Raynos/console-browserify](https://github.com/Raynos/console-browserify) | [console.js](https://github.com/webpack/node-libs-browser/blob/master/mock/console.js) |
 | constants | [juliangruber/constants-browserify](https://github.com/juliangruber/constants-browserify) | --- |
-| crypto | [crypto-browserify/crypto-browserify](https://github.com/crypto-browserify/crypto-browserify) | --- |
+| crypto | [mvayngrib/react-native-crypto](https://github.com/mvayngrib/react-native-crypto) | --- |
 | dgram | --- | --- |
 | dns | --- | [dns.js](https://github.com/webpack/node-libs-browser/blob/master/mock/dns.js) |
 | domain | [bevry/domain-browser](https://github.com/bevry/domain-browser) | --- |
@@ -43,18 +41,6 @@ Some modules have mocks in the `mock` directory. These are replacements with min
 | util | [defunctzombie/node-util](https://github.com/defunctzombie/node-util) | --- |
 | vm | [substack/vm-browserify](https://github.com/substack/vm-browserify) | --- |
 | zlib | [devongovett/browserify-zlib](https://github.com/devongovett/browserify-zlib) | --- |
-
-## Outdated versions 
-
-### `buffer`
-
-The current `buffer` implementation uses feross/buffer@4.x because feross/buffer@5.x relies on [typed arrays](https://github.com/feross/buffer/commit/5daca86b7cd5d2b8ccb167534d47421029f639e9#commitcomment-19698936).
-This will be dropped as soon as IE9 is not a typical browser target anymore.
-
-### `punycode`
-
-The current `punycode` implementation uses bestiejs/punycode.js@1.x because bestiejs/punycode.js@2.x requires modern JS engines that understand `const` and `let`.
-It will be removed someday since it has already been [deprecated from the node API](https://nodejs.org/api/punycode.html).
 
 ## License
 
